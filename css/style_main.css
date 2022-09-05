@@ -1,0 +1,247 @@
+/*---------MAIN--------------*/
+
+.main{
+	
+	flex: 1 1 auto;
+}
+
+
+
+
+.projects {
+	
+	  margin: 135px 0 0 0;
+}
+
+
+
+
+/*----------------------*/
+.proj_text_body{
+	margin: 0 auto;
+}
+.proj__items{
+	display: flex;
+ 
+}
+
+.projects__title {
+z-index: 6;
+color: rgb(187, 255, 0);
+font-size: 80px;
+/* font-family: 'Rubik Glitch'; */
+margin: 0 auto;
+}
+
+
+
+
+.proj__items__text{
+	display: flex;
+	padding: 15px 0 0 0;
+	
+}
+.projects__text {
+	z-index: 6;
+	color: rgb(187, 255, 0);
+	font-size: 25px;
+
+	margin: 0 auto;
+	
+	
+}
+
+
+
+
+
+
+
+/*------------------------------*/
+.projects__body {
+	
+z-index: 6;
+	
+	margin: 50px auto;
+	
+}
+
+
+
+
+.video__projects {
+
+	
+	z-index: 5;
+	display: flex;
+
+	
+    padding: 0 0 50px 0;
+    
+    
+    
+    overflow: hidden;
+
+	margin: 0 auto;
+}
+
+
+
+.video__projects iframe{
+	
+    border-radius: 6px;
+    top: 0;
+    left:0;
+    object-fit: cover;
+	
+	z-index: 6;
+
+	margin: 0 auto;
+
+	
+	
+	
+}
+
+
+
+
+
+/*--*/
+
+
+
+.buttons__projects {
+	display: flex;
+	
+	
+}
+.button__staem {
+	color: rgb(255, 255, 255);
+
+	padding: 20px 50px;
+	border: 2px solid white;
+	font-weight: 500;
+	transition: all 0.4s ease 0s;
+	z-index: 5;
+
+		margin: 0 auto;
+		letter-spacing: 5px;
+}
+.button__staem:hover{
+	
+	background-color: rgb(187, 255, 0);
+	color: black;
+	border: 2px solid rgb(187, 255, 0);
+}
+
+/*----------------------------------*/
+
+.video__poster{
+	
+	z-index: 6;
+	display: flex;
+
+	
+    padding: 0 0 50px 0;
+    
+    
+    
+    
+	margin: auto;
+
+	width: 500px;
+	height: 500;
+
+}
+
+.source{
+	height: 100%;
+	width: 100%;
+	
+    border-radius: 6px;
+    top: 0;
+    left:0;
+    object-fit: cover;
+	
+	z-index: 6;
+
+	margin: 0 auto;
+
+	
+
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1500px)
+{
+	.text__projects{
+		
+	}
+
+	
+
+	.video__projects{
+		
+	}
+}
+
+
+
+@media(max-width:1300px){
+	.text__projects{
+		
+
+		
+	}
+
+	.projects__body{
+		
+	}
+}
+
+
+
+@media(max-width:1100px){
+	.medison_image{
+		
+	}
+}
+@media(max-width:1190px){
+	.video__projects iframe{
+		
+	}
+}
+
+@media(max-width:821px){
+	.projects__body{
+		display: block;
+		
+	}
+
+	.text__projects{
+		
+
+		
+	}
+
+	
+.projects {
+	
+	margin: 50px 0 0 0;
+}
+}
